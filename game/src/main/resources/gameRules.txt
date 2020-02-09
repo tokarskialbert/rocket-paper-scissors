@@ -1,0 +1,4 @@
+
+"1" -> KAMIEN *** "2" -> PAPIER *** "3" -> NOZYCE *** "4" -> JASZCZURKA *** "5" -> SPOCK
+
+"n" -> GRA OD NOWA ** "x" -> exit

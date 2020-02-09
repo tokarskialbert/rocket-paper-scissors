@@ -1,0 +1,10 @@
+Zasady gry:
+
+Do wyboru masz 5 figur: kamień, papier, nożyce, jaszczurkę i spock'a.
+
+Kamień bije nożyce i jaszczurkę.
+Papier bije kamień i spock'a.
+Nożyce biją papier i jaszczurkę.
+Jaszczurka bije spock'a i papier.
+Spock bije kamień i nożyce.
+

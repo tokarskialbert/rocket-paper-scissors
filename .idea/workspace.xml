@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="412bf0d4-e91e-49b6-9d2a-5e88d5bcdbae" name="Default Changelist" comment="" />
+    <list default="true" id="412bf0d4-e91e-49b6-9d2a-5e88d5bcdbae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -73,7 +90,13 @@
       <updated>1580762840858</updated>
       <workItem from="1580762843656" duration="87000" />
       <workItem from="1580767452194" duration="86000" />
-      <workItem from="1580767578208" duration="987000" />
+      <workItem from="1580767578208" duration="1204000" />
+      <workItem from="1580842012229" duration="1455000" />
+      <workItem from="1580843622001" duration="2518000" />
+      <workItem from="1581014205355" duration="448000" />
+      <workItem from="1581104406405" duration="3454000" />
+      <workItem from="1581168488381" duration="7617000" />
+      <workItem from="1581244543525" duration="874000" />
     </task>
     <servers />
   </component>
@@ -81,26 +104,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1580768048307">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1581197030667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1580768048307" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580768541906">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1581197030667" />
+    <state x="260" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580842970392">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580768541906" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580768541905">
+    <state x="260" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1580842970392" />
+    <state x="508" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1580842973331">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580768541905" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580768541904">
+    <state x="508" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1580842973331" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1581245509511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580768541904" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580768541906">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581245509511" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1581245509510">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580768541906" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581245509510" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1581245509509">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581245509509" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1581245509511">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581245509511" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581244543561">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581244543561" />
     <state x="149" y="64" key="new project wizard" timestamp="1580767606885">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
