@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="412bf0d4-e91e-49b6-9d2a-5e88d5bcdbae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -9,14 +10,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/ENUM/RPSoptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/Battle.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/Battle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/DecisionGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/DecisionGetter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/ENUM/RPSoptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/DecisionGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/UserDecision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/GameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/GameStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Summary.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Summary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -97,6 +104,9 @@
       <workItem from="1581104406405" duration="3454000" />
       <workItem from="1581168488381" duration="7617000" />
       <workItem from="1581244543525" duration="874000" />
+      <workItem from="1581246938730" duration="164000" />
+      <workItem from="1581525752778" duration="186000" />
+      <workItem from="1581969731864" duration="2878000" />
     </task>
     <servers />
   </component>
@@ -116,6 +126,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="508" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1580842973331" />
+    <state x="202" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581972583948">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="202" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1581972583948" />
     <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1581245509511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -132,13 +146,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581245509511" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581244543561">
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581969731350">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581244543561" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581969731350" />
     <state x="149" y="64" key="new project wizard" timestamp="1580767606885">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="149" y="64" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1580767606885" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581971563662">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581971563662" />
   </component>
 </project>

@@ -1,18 +1,16 @@
 package com.albert.rpsgame;
 
-import com.albert.ENUM.RPSoptions;
-
 public class Battle {
 
-    public void doTheDuel(GameStatus gameStatus, RPSoptions playerChoice, RPSoptions computerChoice) {
+    public void doTheDuel(GameStatus gameStatus, Move playerChoice, Move computerChoice) {
 
         if (playerChoice == computerChoice) {
 
             System.out.println("REMIS!");
         }
-        else if (playerChoice == RPSoptions.ROCKET) {
+        else if (playerChoice == Move.ROCKET) {
 
-            if (computerChoice == RPSoptions.SCISSORS || computerChoice == RPSoptions.LIZARD) {
+            if (computerChoice == Move.SCISSORS || computerChoice == Move.LIZARD) {
                 gameStatus.setPlayerVictories(gameStatus.getPlayerVictories() + 1);
 
                 System.out.println("Punkty gracza: " + gameStatus.getPlayerVictories());
@@ -25,9 +23,9 @@ public class Battle {
             }
         }
 
-        else if (playerChoice == RPSoptions.PAPER) {
+        else if (playerChoice == Move.PAPER) {
 
-            if (computerChoice == RPSoptions.ROCKET || computerChoice == RPSoptions.SPOCK) {
+            if (computerChoice == Move.ROCKET || computerChoice == Move.SPOCK) {
                 gameStatus.setPlayerVictories(gameStatus.getPlayerVictories() + 1);
 
                 System.out.println("Punkty gracza: " + gameStatus.getPlayerVictories());
@@ -40,9 +38,9 @@ public class Battle {
             }
         }
 
-        else if (playerChoice == RPSoptions.SCISSORS) {
+        else if (playerChoice == Move.SCISSORS) {
 
-            if (computerChoice == RPSoptions.PAPER || computerChoice == RPSoptions.LIZARD) {
+            if (computerChoice == Move.PAPER || computerChoice == Move.LIZARD) {
                 gameStatus.setPlayerVictories(gameStatus.getPlayerVictories() + 1);
 
                 System.out.println("Punkty gracza: " + gameStatus.getPlayerVictories());
@@ -55,9 +53,9 @@ public class Battle {
             }
         }
 
-        else if (playerChoice == RPSoptions.LIZARD) {
+        else if (playerChoice == Move.LIZARD) {
 
-            if (computerChoice == RPSoptions.SPOCK || computerChoice == RPSoptions.PAPER) {
+            if (computerChoice == Move.SPOCK || computerChoice == Move.PAPER) {
                 gameStatus.setPlayerVictories(gameStatus.getPlayerVictories() + 1);
 
                 System.out.println("Punkty gracza: " + gameStatus.getPlayerVictories());
@@ -72,7 +70,7 @@ public class Battle {
 
         else {
 
-            if (computerChoice == RPSoptions.SCISSORS || computerChoice == RPSoptions.ROCKET) {
+            if (computerChoice == Move.SCISSORS || computerChoice == Move.ROCKET) {
                 gameStatus.setPlayerVictories(gameStatus.getPlayerVictories() + 1);
 
                 System.out.println("Punkty gracza: " + gameStatus.getPlayerVictories());

@@ -4,20 +4,20 @@ public class Game {
 
     public void doTheGame() {
         System.out.println("Cześć!");
+
         MainMenu mainMenu = new MainMenu();
-        mainMenu.displayGameDescription();
+        mainMenu.displayTextFromFile("gameDescription.txt");
         User user = new User(mainMenu.getUserName());
-        GameStatus gameStatus = new GameStatus(mainMenu.getVictoriesNumberToWinTheGame());
-        mainMenu.displayGameRules();
-        DecisionGetter decisionGetter = new DecisionGetter();
-
+        GameStatus gameStatus = new GameStatus(mainMenu.getVictoriesToWin());
+        mainMenu.displayTextFromFile("gameRules.txt");
+        UserDecision userDecision = new UserDecision();
         Battle battle = new Battle();
+        boolean endOfTheGame = gameStatus.getVictoriesToWin() == gameStatus.getPlayerVictories() || gameStatus.getVictoriesToWin() == gameStatus.getComputerVictories();
 
-        while(!(gameStatus.getVictoriesToWinTheGame() == gameStatus.getPlayerVictories() ||
-                gameStatus.getVictoriesToWinTheGame() == gameStatus.getComputerVictories())) {
+        while(!endOfTheGame) {
 
-            decisionGetter.getDecisionFromPlayer();
-            battle.doTheDuel(gameStatus, decisionGetter.findCorrectFigure(), decisionGetter.getRandomFigure());
+            userDecision.getDecisionFromPlayer();
+            battle.doTheDuel(gameStatus, userDecision.findCorrectFigure(), userDecision.getRandomFigure());
         }
 
         Summary summary = new Summary();

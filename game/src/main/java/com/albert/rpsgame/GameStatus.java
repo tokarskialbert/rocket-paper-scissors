@@ -2,17 +2,17 @@ package com.albert.rpsgame;
 
 public class GameStatus {
 
-    private int victoriesToWinTheGame;
+    private int victoriesToWin;
     private int playerVictories = 0;
     private int computerVictories = 0;
 
 
-    public GameStatus(int victoriesToWinTheGame) {
-        this.victoriesToWinTheGame = victoriesToWinTheGame;
+    public GameStatus(int victoriesToWin) {
+        this.victoriesToWin = victoriesToWin;
     }
 
-    public int getVictoriesToWinTheGame() {
-        return victoriesToWinTheGame;
+    public int getVictoriesToWin() {
+        return victoriesToWin;
     }
 
     public int getPlayerVictories() {

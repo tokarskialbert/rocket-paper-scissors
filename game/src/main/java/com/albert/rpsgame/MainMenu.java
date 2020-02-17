@@ -24,7 +24,7 @@ public class MainMenu {
         return result.toLowerCase().substring(0, 1).toUpperCase() + result.substring(1);
     }
 
-    public Integer getVictoriesNumberToWinTheGame() {
+    public Integer getVictoriesToWin() {
 
         System.out.println("Do ilu zwycięstw gramy? Wpisz liczbę:");
         Scanner scanner = new Scanner(System.in);
@@ -38,11 +38,11 @@ public class MainMenu {
         return Integer.parseInt(result);
     }
 
-    public void displayGameRules() {
+    public void displayTextFromFile(String fileName) {
 
         try {
             ClassLoader classLoader = getClass().getClassLoader();
-            File file = new File(classLoader.getResource("gameRules.txt").getFile());
+            File file = new File(classLoader.getResource(fileName).getFile());
             Path path = Paths.get(file.getPath());
 
             Stream<String> fileLines = Files.lines(path);
@@ -50,23 +50,8 @@ public class MainMenu {
 
         } catch (IOException ex) {
 
-            System.out.println("ERROR" + ex.getStackTrace());
-        }
-    }
-
-    public void displayGameDescription() {
-
-        try {
-            ClassLoader classLoader = getClass().getClassLoader();
-            File file = new File(classLoader.getResource("gameDescription.txt").getFile());
-            Path path = Paths.get(file.getPath());
-
-            Stream<String> fileLines = Files.lines(path);
-            fileLines.forEach(System.out::println);
-
-        } catch (IOException ex) {
-
-            System.out.println("ERROR" + ex.getStackTrace());
+            System.err.println("ERROR! " + ex.getStackTrace());
+            System.exit(1);
         }
     }
 }

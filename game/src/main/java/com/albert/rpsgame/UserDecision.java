@@ -1,14 +1,12 @@
 package com.albert.rpsgame;
 
-import com.albert.ENUM.RPSoptions;
-
 import java.util.Random;
 import java.util.Scanner;
 
-public class DecisionGetter {
+public class UserDecision {
 
     private String choosenNumber;
-    private RPSoptions randomFigure;
+    private Move randomFigure;
 
     public void getDecisionFromPlayer() {
 
@@ -32,53 +30,53 @@ public class DecisionGetter {
         }
     }
 
-    public RPSoptions findCorrectFigure() {
+    public Move findCorrectFigure() {
 
         if(this.choosenNumber.equals("1")) {
-            return RPSoptions.ROCKET;
+            return Move.ROCKET;
         }
         else if(this.choosenNumber.equals("2")) {
-            return RPSoptions.PAPER;
+            return Move.PAPER;
         }
         else if(this.choosenNumber.equals("3")) {
-            return RPSoptions.SCISSORS;
+            return Move.SCISSORS;
         }
         else if(this.choosenNumber.equals("4")) {
-            return RPSoptions.LIZARD;
+            return Move.LIZARD;
         }
         else {
-            return RPSoptions.SPOCK;
+            return Move.SPOCK;
         }
     }
 
-    public RPSoptions getRandomFigure() {
+    public Move getRandomFigure() {
 
         Random random = new Random();
         int randomInt = random.nextInt(5) + 1;
 
         if(randomInt == 1) {
             System.out.println("Komputer wybrał kamień \n");
-            this.randomFigure = RPSoptions.ROCKET;
+            this.randomFigure = Move.ROCKET;
         }
 
         else if(randomInt == 2) {
             System.out.println("Komputer wybrał papier \n");
-            this.randomFigure = RPSoptions.PAPER;
+            this.randomFigure = Move.PAPER;
         }
 
         else if(randomInt == 3) {
             System.out.println("Komputer wybrał nożyce \n");
-            this.randomFigure = RPSoptions.SCISSORS;
+            this.randomFigure = Move.SCISSORS;
         }
 
         else if(randomInt == 4) {
             System.out.println("Komputer wybrał jaszczurkę \n");
-            this.randomFigure = RPSoptions.LIZARD;
+            this.randomFigure = Move.LIZARD;
         }
 
         else {
             System.out.println("Komputer wybrał Spock'a \n");
-            this.randomFigure = RPSoptions.SPOCK;
+            this.randomFigure = Move.SPOCK;
         }
 
         return this.randomFigure;
