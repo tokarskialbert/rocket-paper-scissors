@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="412bf0d4-e91e-49b6-9d2a-5e88d5bcdbae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/ENUM/RPSoptions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/Battle.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/Battle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/DecisionGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/DecisionGetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/game/build/classes/java/main/com/albert/rpsgame/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/ENUM/RPSoptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Move.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/DecisionGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/UserDecision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/GameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/GameStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Summary.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Summary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/UserDecision.java" beforeDir="false" afterPath="$PROJECT_DIR$/game/src/main/java/com/albert/rpsgame/UserDecision.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +90,9 @@
       <workItem from="1581244543525" duration="874000" />
       <workItem from="1581246938730" duration="164000" />
       <workItem from="1581525752778" duration="186000" />
-      <workItem from="1581969731864" duration="2878000" />
+      <workItem from="1581969731864" duration="3069000" />
+      <workItem from="1582058838882" duration="151000" />
+      <workItem from="1582654472728" duration="4620000" />
     </task>
     <servers />
   </component>
@@ -114,10 +100,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1581197030667">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1582656235940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1581197030667" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1582656235940" />
     <state x="260" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580842970392">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -130,26 +116,31 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="202" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1581972583948" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1581245509511">
+    <state width="1398" height="320" key="GridCell.Tab.0.bottom" timestamp="1582660041651">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581245509511" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1581245509510">
+    <state width="1398" height="320" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582660041651" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581973260071" />
+    <state width="1398" height="320" key="GridCell.Tab.0.center" timestamp="1582660041650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581245509510" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1581245509509">
+    <state width="1398" height="320" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582660041650" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1581973260069" />
+    <state width="1398" height="320" key="GridCell.Tab.0.left" timestamp="1582660041649">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581245509509" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1581245509511">
+    <state width="1398" height="320" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582660041649" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1581973260068" />
+    <state width="1398" height="320" key="GridCell.Tab.0.right" timestamp="1582660041650">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581245509511" />
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581969731350">
+    <state width="1398" height="320" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582660041650" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1581973260070" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1582654474624">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581969731350" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582654474624" />
+    <state x="413" y="273" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1582058841269" />
     <state x="149" y="64" key="new project wizard" timestamp="1580767606885">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

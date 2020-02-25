@@ -12,13 +12,12 @@ public class Game {
         mainMenu.displayTextFromFile("gameRules.txt");
         UserDecision userDecision = new UserDecision();
         Battle battle = new Battle();
-        boolean endOfTheGame = gameStatus.getVictoriesToWin() == gameStatus.getPlayerVictories() || gameStatus.getVictoriesToWin() == gameStatus.getComputerVictories();
+        boolean endOfTheGame = (gameStatus.getVictoriesToWin() == gameStatus.getPlayerVictories()) || (gameStatus.getVictoriesToWin() == gameStatus.getComputerVictories());
 
-        while(!endOfTheGame) {
-
+        do {
             userDecision.getDecisionFromPlayer();
             battle.doTheDuel(gameStatus, userDecision.findCorrectFigure(), userDecision.getRandomFigure());
-        }
+        } while(endOfTheGame);
 
         Summary summary = new Summary();
         System.out.println(summary.getSummary(user, gameStatus));
