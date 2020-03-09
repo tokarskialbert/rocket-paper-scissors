@@ -7,13 +7,12 @@ public class Battle {
         if (playerChoice == computerChoice) {
             System.out.println("REMIS!");
         }
-
         else {
             if(playerChoice.beats(computerChoice)) {
-                gameStatus.setPlayerVictories(gameStatus.getPlayerVictories() + 1);
+                gameStatus.incrementPlayerVictories();
             }
             else {
-                gameStatus.setComputerVictories(gameStatus.getComputerVictories() + 1);
+                gameStatus.incrementComputerVictories();
             }
         }
 

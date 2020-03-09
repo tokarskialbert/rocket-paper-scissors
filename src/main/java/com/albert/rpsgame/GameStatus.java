@@ -23,11 +23,11 @@ public class GameStatus {
         return computerVictories;
     }
 
-    public void setPlayerVictories(int playerVictories) {
-        this.playerVictories = playerVictories;
+    public void incrementPlayerVictories() {
+        this.playerVictories++;
     }
 
-    public void setComputerVictories(int computerVictories) {
-        this.computerVictories = computerVictories;
+    public void incrementComputerVictories() {
+        this.computerVictories++;
     }
 }

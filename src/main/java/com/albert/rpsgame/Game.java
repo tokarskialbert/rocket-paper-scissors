@@ -15,7 +15,7 @@ public class Game {
 
         while(!((gameStatus.getVictoriesToWin() == gameStatus.getPlayerVictories()) || (gameStatus.getVictoriesToWin() == gameStatus.getComputerVictories()))) {
             userDecision.getDecisionFromPlayer();
-            battle.doTheDuel(gameStatus, Move.findPlayerMove(userDecision), Move.findComputerMove(userDecision));
+            battle.doTheDuel(gameStatus, userDecision.findPlayerMove(userDecision.getChosenNumber()), userDecision.findComputerMove());
         }
 
         Summary summary = new Summary();

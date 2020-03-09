@@ -1,12 +1,25 @@
 package com.albert.rpsgame;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public enum Move {
-    ROCK(1), PAPER(2), SCISSORS(3), LIZARD(4), SPOCK(5);
+    ROCK, PAPER, SCISSORS, LIZARD, SPOCK;
 
-    Move(int i) {
+    static Map<Integer, Move> moveMap = new HashMap<>();
+
+    static {
+        moveMap.put(1, Move.ROCK);
+        moveMap.put(2, Move.PAPER);
+        moveMap.put(3, Move.SCISSORS);
+        moveMap.put(4, Move.LIZARD);
+        moveMap.put(5, Move.SPOCK);
+    }
+
+    public static Map<Integer, Move> getMoveMap() {
+        return moveMap;
     }
 
     List<Move> beats = new ArrayList<>();
@@ -30,15 +43,5 @@ public enum Move {
 
     public boolean beats(final Move m) {
         return beats.contains(m);
-    }
-
-    public static Move findPlayerMove(UserDecision userDecision) {
-        return Move.values()[Integer.parseInt(userDecision.getChosenNumber())-1];
-    }
-
-    public static Move findComputerMove(UserDecision userDecision) {
-        Move computerMove = Move.values()[userDecision.drawNumber()-1];
-        System.out.println("Komputer wybrał " + computerMove);
-        return computerMove;
     }
 }
