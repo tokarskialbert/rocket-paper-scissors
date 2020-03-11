@@ -34,14 +34,9 @@ public class UserDecision {
         return random.nextInt(5) + 1;
     }
 
-    public Move findPlayerMove(String index) {
-            return Move.getMoveMap().get(Integer.parseInt(index));
-    }
-
-    public Move findComputerMove() {
-        Move computerMove = Move.getMoveMap().get(drawNumber());
-        System.out.println("Komputer wybrał " + computerMove);
-        return computerMove;
+    public Move findMove(int index) {
+            Move chosenMove = Move.getMove(index);
+            return chosenMove;
     }
 
     public String getChosenNumber() {

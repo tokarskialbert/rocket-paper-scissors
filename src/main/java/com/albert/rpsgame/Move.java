@@ -18,8 +18,8 @@ public enum Move {
         moveMap.put(5, Move.SPOCK);
     }
 
-    public static Map<Integer, Move> getMoveMap() {
-        return moveMap;
+    public static Move getMove(int i) {
+        return moveMap.get(i);
     }
 
     List<Move> beats = new ArrayList<>();

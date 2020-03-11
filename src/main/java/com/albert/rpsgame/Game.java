@@ -15,12 +15,23 @@ public class Game {
 
         while(!((gameStatus.getVictoriesToWin() == gameStatus.getPlayerVictories()) || (gameStatus.getVictoriesToWin() == gameStatus.getComputerVictories()))) {
             userDecision.getDecisionFromPlayer();
-            battle.doTheDuel(gameStatus, userDecision.findPlayerMove(userDecision.getChosenNumber()), userDecision.findComputerMove());
+
+            Move computerMove = userDecision.findMove(userDecision.drawNumber());
+
+            battle.doTheDuel(gameStatus,
+                    userDecision.findMove(Integer.parseInt(userDecision.getChosenNumber())),
+                    computerMove);
+
+            displayComputerMove(computerMove);
         }
 
         Summary summary = new Summary();
         System.out.println(summary.getSummary(user, gameStatus));
 
         System.exit(0);
+    }
+
+    public void displayComputerMove(Move move) {
+        System.out.println("(Komputer wybrał " + move +")");
     }
 }
