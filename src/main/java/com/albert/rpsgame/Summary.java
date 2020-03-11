@@ -4,7 +4,7 @@ public class Summary {
 
     public String getSummary(User user, GameStatus gameStatus) {
 
-        if (gameStatus.getVictoriesToWinTheGame() == gameStatus.getPlayerVictories()) {
+        if (gameStatus.getVictoriesToWin() == gameStatus.getPlayerVictories()) {
             return "\nWYGRYWA " + user.getName().toUpperCase() +"!";
         }
         else {
